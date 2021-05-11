@@ -50,7 +50,6 @@ function App() {
                 luminosity: inputValue.split(' ')[1],
               }),
             );
-            console.log(inputValue);
           }}
         >
           <input
