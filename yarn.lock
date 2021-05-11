@@ -1551,10 +1551,10 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@next/eslint-plugin-next@^10.2.0":
-  version "10.2.0"
-  resolved "https://registry.npmjs.org/@next/eslint-plugin-next/-/eslint-plugin-next-10.2.0.tgz"
-  integrity sha512-FaW/mZrRwbHz10JmWV/JpK+TJpfB3EWTiJulKa1oJgLjOBaWND3PwmuBkQcBwGEE8vEZjsHpMPA8hToQA73dPw==
+"@next/eslint-plugin-next@10.2.1-canary.5":
+  version "10.2.1-canary.5"
+  resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-10.2.1-canary.5.tgz#887873a588edc935f7cd956407df527b152e3869"
+  integrity sha512-PHptbjBWpK+zC3ozWVsCKc7RMzm5sZUOIWodB+8zhBO/NOM8yWfRVlJO+rkP7h/27mDQYRvZ1K3uRZksBj/FgQ==
 
 "@nodelib/fs.scandir@2.1.4":
   version "2.1.4"
@@ -2292,10 +2292,10 @@
     "@typescript-eslint/types" "4.22.1"
     eslint-visitor-keys "^2.0.0"
 
-"@upleveled/eslint-config-upleveled@1.13.0":
-  version "1.13.0"
-  resolved "https://registry.npmjs.org/@upleveled/eslint-config-upleveled/-/eslint-config-upleveled-1.13.0.tgz"
-  integrity sha512-i12+42jBG4TLadLzuTXH8cAjYIRp7UJqlUwW5z2O9VOrzqv3UvQnl40/qj1WVigvk6tThrQwyyuesnpnLypjXw==
+"@upleveled/eslint-config-upleveled@1.13.1":
+  version "1.13.1"
+  resolved "https://registry.yarnpkg.com/@upleveled/eslint-config-upleveled/-/eslint-config-upleveled-1.13.1.tgz#104fc1c1abe44503f8c35f2e22d8a17f2697d806"
+  integrity sha512-uu9Ne7rZEzpoX+7CF4KPnU6u8RDIJNHAFojjAx4kT27P4oB6A4ggvooiB31ArXJavsp5Rd1lgbpdjboCB3vuDg==
 
 "@webassemblyjs/ast@1.9.0":
   version "1.9.0"
