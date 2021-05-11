@@ -41,34 +41,30 @@ function App() {
         />
       </div>
       <div className="btn">
-        <button
-          className="changeColor"
-          onClick={() => setOneColor(color.randomColor())}
+        <form
+          onSubmit={(e) => {
+            e.preventDefault();
+            setOneColor(
+              color.randomColor({
+                hue: inputValue.split(' ')[0],
+                luminosity: inputValue.split(' ')[1],
+              }),
+            );
+            console.log(inputValue);
+          }}
         >
-          Change Color
-        </button>
-      </div>
-
-      <form
-        onSubmit={(e) => {
-          e.preventDefault();
-          setOneColor(color.randomColor({ hue: inputValue }));
-          console.log(inputValue);
-        }}
-      >
-        <label>
-          <input // State #2: Synchronize the value to the HTML
+          <input
+            className="input"
             value={inputValue}
             onChange={(event) => {
-              // State #3: Update the value
               setInputValue(event.currentTarget.value);
             }}
           />
-        </label>
-        <button type="submit" value="Submit">
-          Change it
-        </button>
-      </form>
+          <button className="changeColor" type="submit" value="Submit">
+            Change it
+          </button>
+        </form>
+      </div>
     </div>
   );
 }
